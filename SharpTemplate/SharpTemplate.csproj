@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ServiceStack" Version="5.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SharpTemplate.ServiceInterface\SharpTemplate.ServiceInterface.csproj" />
+    <ProjectReference Include="..\SharpTemplate.ServiceModel\SharpTemplate.ServiceModel.csproj" />
+  </ItemGroup>
+
+</Project>
